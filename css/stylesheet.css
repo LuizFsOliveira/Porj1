@@ -5,6 +5,12 @@
     }
 }
 
+@media screen and (max-width: 760px) {
+    header img {
+      display: none;
+    }
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -104,15 +110,6 @@ p {
     margin-bottom: 20px;
     list-style: none;
     padding: 10px
-}
-
-header img {
-    max-width: 150px;
-    max-height: 150px;
-    position: absolute;
-    top: -30px;
-    left: 20px;
-    margin: 10px;
 }
 
 .content {
